@@ -13,6 +13,9 @@ import {
     nodejs,
     mongodb,
     git,
+    github,
+    linkdin,
+    resume,
     figma,
     docker,
     certi,
@@ -23,6 +26,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    webfolio,
   } from "../assets";
   
   export const navLinks = [
@@ -42,22 +46,23 @@ import {
   
   const services = [
     {
-      title: "Fullstack Web Developer",
-      icon: web,
-    },
-    { 
-      title: "Responsive Website Development",
-      icon: mobile,
+      title: "View Resume",
+      icon: resume, 
+      link: "https://drive.google.com/file/d/1XlWAkFp2lb-9zVn-Ckup16QZgW4DORDD/view?usp=drive_link"
     },
     {
-      title: "Ui/Ux Development",
-      icon: backend,
+      title: "View LinkedIn",
+      icon: linkdin, 
+      link: "https://www.linkedin.com/in/thejas-d-r-7388b3255/" 
     },
-    // {
-    //   title: "Content Creator",
-    //   icon: creator,
-    // },
-  ];
+    { 
+      title: "View GitHub",
+      icon: github, 
+      link: "https://github.com/thejas2324" 
+    },
+   
+];
+
   
   const technologies = [
     {
@@ -173,22 +178,22 @@ import {
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I got an opportunity to interact with Sameer Dixit on a few occasions and he has impressed me with his knowledge of front end technologies. He is an avid learner and keen applicator of his learnings to the projects he has worked on. I highly recommend him.",
-      name: "Anil Kulkarni",
-      designation: "Head Of Engineering",
-      company: "Zoom",
-      image: "https://www.linkedin.com/in/ankit5999/overlay/photo/",
-    },
-    {
-      testimonial:
-        "Great person, enthusiast to lean new things. I will recommend Sammer as a great tech guy interested in development.",
-      name: "Ankit Kumar",
-      designation: "Team lead",
-      company: "Solitera Limited",
-      image: "https://www.linkedin.com/in/ankit5999/overlay/photo/",
-    },
+    // {
+    //   testimonial:
+    //     "I got an opportunity to interact with Sameer Dixit on a few occasions and he has impressed me with his knowledge of front end technologies. He is an avid learner and keen applicator of his learnings to the projects he has worked on. I highly recommend him.",
+    //   name: "Anil Kulkarni",
+    //   designation: "Head Of Engineering",
+    //   company: "Zoom",
+    //   image: "https://www.linkedin.com/in/ankit5999/overlay/photo/",
+    // },
+    // {
+    //   testimonial:
+    //     "Great person, enthusiast to lean new things. I will recommend Sammer as a great tech guy interested in development.",
+    //   name: "Ankit Kumar",
+    //   designation: "Team lead",
+    //   company: "Solitera Limited",
+    //   image: "https://www.linkedin.com/in/ankit5999/overlay/photo/",
+    // },
     // {
     //   testimonial:
     //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
@@ -221,15 +226,18 @@ import {
           name: "JavaScript",
           color: "green-text-gradient",
         },
-        
+        {
+          name: "Git",
+          color: "green-text-gradient",
+        },
       ],
       image: carrent,
-      source_code_link: "https://www.rbdgtc1910.org/",
+      source_code_link: "https://github.com/thejas2324/RBDGTC-Hostel-Website",
     },
     {
       name: "Trip Or Travels",
       description:
-        "The primary goal of this project is to develop a platform for travelers to discover and explore cities through curated tour packages. Our application aims to provide customers with a seamless browsing and booking experience for these thoughtfully crafted tour packages. Additionally, users can conveniently secure their travel arrangements, including integrated cab booking services, all from the comfort of their own homes.",
+        "The primary goal of this project is to develop a platform for travelers to discover and explore cities through curated tour packages. Our application aims to provide customers with a seamless browsing and booking experience for these thoughtfully crafted tour packages. Additionally, users can conveniently secure their travel arrangements, including integrated cab booking services, all from the comfort of their own homes. The platform also offers personalized recommendations based on user preferences and experience.",
       tags: [
         {
           name: "React",
@@ -240,12 +248,49 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
           name: "Css",
           color: "pink-text-gradient",
         },
+        {
+          name: "Git",
+          color: "green-text-gradient",
+        },
       ],
       image: jobit,
-      source_code_link: "",
+      source_code_link: "https://github.com/thejas2324/tripandtravel",
+    },
+    {
+      name: "Webfolio",
+      description:
+        "Developed a professional webfolio as a career project using Create Folio in React.js. Implemented responsive design principles and dynamic content rendering to showcase skills and projects effectively. Deployed the project on a Netlify server for seamless access and performance. Integrated a contact form with email notifications to facilitate direct communication with potential employers. Utilized modern design trends and best practices to ensure an engaging and user-friendly experience across all devices.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Git",
+          color: "green-text-gradient",
+        },
+      ],
+      image: webfolio,
+      source_code_link: "https://github.com/thejas2324/webfolio",
     },
     
   ];
